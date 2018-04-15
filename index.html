@@ -2,15 +2,21 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Fed SoundBoard</title>
 </head>
-<body>
-    
-    <audio id="sound1" src="Soundclips\albert.mp3"></audio>
-
-    <button onclick="document.getElementById('sound1').play()">Albert Sound</button>
+<body class="body">
+    <!-- Audio Files Section -->
+    <audio id="WaitComeOn" src="Soundclips\WaitComeOn.mp3"></audio>
+    <audio id="SeeYouAtTheTop" src="Soundclips\SeeYouAtTheTop.mp3"></audio>
+    <audio id="ImaneCall" src="Soundclips\Imane.mp3"></audio>
+`
+    <!-- Button Section -->
+    <button class="button" onclick="document.getElementById('WaitComeOn').play()">Wait Come On...</button>
+    <button class="button" onclick="document.getElementById('SeeYouAtTheTop').play()">See You at The Top</button>
+    <button class="button" onclick="document.getElementById('ImaneCall').play()">Imannnne</button>
 
 </body>
 </html>
