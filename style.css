@@ -1,5 +1,10 @@
+.centering{
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+}
 .body{
-    background-color: #333; 
+    background-color: #333;
 }
 .button {
     display: inline-block;
